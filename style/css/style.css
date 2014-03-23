@@ -1,0 +1,162 @@
+/*
+Default syle
+*/
+/* 
+    Created on : 2014-03-16, 21:45:08
+    Author     : dariusz
+*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.page {    
+    border: 1px solid #EEEEEE;
+    margin: auto;
+    min-height: 470px;
+    width: 80%;
+}
+
+.logo{
+    height: 50px;
+    padding: 20px 20px 20px 0;
+    background-color: #D3D3D3;
+}
+
+.header{
+    padding-bottom: 30px;
+}
+
+.nav-menu{
+    background-color: #428BCA;
+    border-left: 1px solid #D3D3D3;
+    border-radius: 0 0 4px 4px;
+    border-right: 1px solid #D3D3D3;
+    padding: 5px 0;
+    text-align: center;
+}
+.nav-menu a{
+    color: white;
+}
+
+.nav-menu.activ:hover{
+    background-color: #2376b1;
+}
+.nav-menu.activ a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu.current{
+    background-color: #5CB85C;
+}
+.nav-menu.current:hover
+{
+    background-color: #47a447;
+}
+
+.nav-row{
+    background-color: #D3D3D3;
+    padding: 5px 0;
+}
+
+.errorMessage,
+.errorMessage pre
+{
+    background-color: #FCE6E6;
+}
+
+#dragandrophandler
+{
+    border:2px dotted #0B85A1;
+    color:#92AAB0;
+    text-align:left;vertical-align:middle;
+    padding:10px 10px 10 10px;
+    margin-bottom:10px;
+    font-size:200%;
+    min-height: 200px;
+}
+#dragandrophandler1
+{
+    border:2px dotted #0B85A1;
+    color:#92AAB0;
+    text-align:left;vertical-align:middle;
+    padding:10px 10px 10 10px;
+    margin-bottom:10px;
+    font-size:200%;
+    min-height: 200px;
+}
+.progressBar {
+    height: 22px;
+    vertical-align:top;
+    text-align: right;
+    color: white;
+}
+ 
+.progressBar div {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-color: #0BA1B5;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    background-color: #0ba1b5; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.statusbar
+{
+    border-top:1px solid #A9CCD1;
+    min-height:25px;
+    padding:10px 10px 0px 10px;
+    vertical-align:top;
+}
+.statusbar:nth-child(odd){
+    background:#EBEFF0;
+}
+.progressError{
+    background:#FF9898;
+    padding-right: 5px;
+    text-align: right;
+}
+.filename
+{
+    display:inline-block;
+    vertical-align:top;
+    width:250px;
+}
+.filesize
+{
+    display:inline-block;
+    vertical-align:top;
+    color:#30693D;
+    width:100px;
+    margin-left:10px;
+    margin-right:5px;
+}
+.abort{
+    background-color:#A8352F;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;display:inline-block;
+    color:#fff;
+    font-family:arial;font-size:13px;font-weight:normal;
+    padding:4px 15px;
+    cursor:pointer;
+    vertical-align:top
+}
+
+.panel > .table, .panel > .table-responsive > .table{
+    border-bottom: inherit !important;
+}
+.panel-heading .pagination{
+    margin: 10px 0 0 !important;
+}
+.pagination{
+    margin: 0 !important;
+}
+.page-header {
+    margin: 20px 0 0 !important;
+}
