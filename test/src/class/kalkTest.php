@@ -36,7 +36,7 @@ class KalkTest extends PHPUnit_Framework_TestCase
     public function testDodawanie()
     {
         // Remove the following lines when you implement this test.
-        return $this->assertEquals(3,$this->object->dodawanie(1, 1));
+        return $this->assertEquals(2,$this->object->dodawanie(1, 1));
     }
 
 }
