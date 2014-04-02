@@ -8,15 +8,16 @@
 
 class Kalk
 {
-    protected $val1 = 0;
+    protected $val1;
     
     function __construct()
     {
-        
+        $this->val1 = 0;        
     }
     
     public function dodawanie($liczba1, $liczba2)
     {
-        return  $this->val1=  $liczba1 + $liczba2;
+        $this->val1 = $liczba1 + $liczba2;
+        return $this->val1;
     }
 }

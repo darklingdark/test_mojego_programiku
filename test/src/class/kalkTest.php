@@ -16,9 +16,7 @@ class KalkTest extends PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->object = new Kalk;
-        
-        print_r($this->object);
+        $this->object = new Kalk();
     }
 
     /**
@@ -28,7 +26,7 @@ class KalkTest extends PHPUnit_Framework_TestCase
     protected function tearDown()
     {
         
-    }
+    }                                                                       
 
     /**
      * @covers Kalk::dodawanie
